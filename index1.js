@@ -8,7 +8,7 @@ var randnum = 0;
 
 bot.on('ready', () => {
   bot.user.setPresence({ game: { name: 'Préfix : r! ', type: 0} });
-  bot.user.setAvatar('./avatar.jpg').catch(console.error)
+  bot.user.setAvatar('./avatar.png').catch(console.error)
   console.log("Bot ready !");
   music(bot)
 });
